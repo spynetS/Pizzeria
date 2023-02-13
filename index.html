@@ -6,19 +6,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizzeria</title>
     <style>
-html{
-    padding:0
-}
+        html{
+            padding:0
+        }
         body{
+            font-family: Arial, Helvetica, sans-serif;
             margin:0
         }
         .homeimg{
-            width:100%;
-            height:100%;
+            width:auto;
+            height:100vh;
+            background-color: azure;
+            background-image:url("./images/pizza-05-2280051085.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-x: center;
+            display: flex;
+            justify-content: center;
+        }
+        .img1{
+            width: 100vw;
+            height: 100vw;
+        }
+        a{
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            text-shadow: 10;
+            text-decoration: none;
+        }
+        nav{
+            position: fixed;
+            top: 0px;
+            width: 100vw;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-color: #00000010;
+        }
+        .title{
+            color: white;
+            position: absolute;
+            top: 5%;
+            font-size: 76px;
+            filter: drop-shadow(4px 4px 0px #00000010);
+        }
+        .cringeCitat{
+            color: white;
+            position: absolute;
+            bottom: 5%;
+            font-size: 50px;
+            left: 5%;
+            width: 300px;
+            text-shadow: black;
+        }
+        .lunchDiv{
+            margin: 0px;
+            padding: 1rem;
+            color: #2F7D27;
         }
     </style>
 </head>
 <body>
-    <img class="homeimg" src="./images/6_campino.png" alt="home image">
+    <nav>
+        <a href="" >MENY</a>
+        <a href="" >KONTAKT</a>
+    </nav>
+
+    <div class="homeimg" >
+        <h1 class="title" >Campino</h1>
+        <h1 class="cringeCitat" >Pizza är vår grej</h1>
+    </div>
+    <div class="lunchDiv" >
+        <h1 style="margin: 0; font-size: 48px;" >Lunch 79:-</h1>
+        <h1 style="margin: 0; font-size: 48px;" >Vardagar 11-14</h1>
+        <p style="font-size: 20px;" >
+            Vi erbjuder den bästa lunchen för ett super pris. Bröd, sallad, dricka och kaffe ingår. 
+            Välj mellan Pizza, Grillspett, Kebab, Schnitzel, Salladsbar, Gyros, Lövbit, 
+            Rödspetta och falafel.
+        </p>
+    </div>
+    <img style="width: 100%; max-width: 500px;margin: 0;" src="./images/Sweet-and-Spicy-Tomato-Basil-Pepperoni-Pizza-1-2ab0dbfad4d64981845253cd51234978.png" alt="">
+    <div class="lunchDiv" style="background-color: #c5eea4; color: #ff4800;" >
+        <h1 style="margin: 0; font-size: 48px;" >Salladsbar 85:-</h1>
+        <p style="font-size: 20px;" >
+            Skapa din egna sallad ur våran fräsha Salladsbar. Välj mellan 5 olika 
+            ingridenser (sallad, gurka och tomat ingår). 
+        </p>
+    </div>
+    <img style="width: 100%; max-width: 500px;" src="./images/img_18411.png" alt="">
+
 </body>
 </html>
