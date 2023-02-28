@@ -67,19 +67,27 @@ nav{
     }
     .lunchdiv1{
         display:flex;
-        flex-direction: row;
+        flex-direction: column;
     }
     .lunchdiv2{
         display:flex;
-        flex-direction: row-reverse;
+        flex-direction: column;
     }
     .bild1{
-        width:70%;
+        
     }
     .bild2{
-        width:70%;
+
     }
     .lunchDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .tider{
         width:30%;
+        display: flex;
+        margin-left:auto;
+        margin-right:auto;
+        color: #27c97d;
     }
 }
