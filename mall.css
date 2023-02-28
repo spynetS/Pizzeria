@@ -5,6 +5,16 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin:0
 }
+.menu-item{
+    display:flex; 
+    flex: row;
+    justify-content:space-between;
+    align-items:center;
+    background:lightgray;
+    column-gap:40px;
+    margin-top:12px;
+    padding:5px;
+}
 .homeimg{
     width:auto;
     height:100vh;
