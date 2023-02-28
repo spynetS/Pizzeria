@@ -60,9 +60,7 @@ nav{
     padding: 1rem;
     color: #2F7D27;
 }
-<<<<<<< Updated upstream
-=======
-@media (max-width:700px) {
+@media (min-width:700px) {
     .erbjudanden{
         display:flex;
         flex-direction: row;
@@ -85,4 +83,3 @@ nav{
         width:30%;
     }
 }
->>>>>>> Stashed changes
