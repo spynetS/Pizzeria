@@ -60,3 +60,29 @@ nav{
     padding: 1rem;
     color: #2F7D27;
 }
+<<<<<<< Updated upstream
+=======
+@media (max-width:700px) {
+    .erbjudanden{
+        display:flex;
+        flex-direction: row;
+    }
+    .lunchdiv1{
+        display:flex;
+        flex-direction: row;
+    }
+    .lunchdiv2{
+        display:flex;
+        flex-direction: row-reverse;
+    }
+    .bild1{
+        width:70%;
+    }
+    .bild2{
+        width:70%;
+    }
+    .lunchDiv{
+        width:30%;
+    }
+}
+>>>>>>> Stashed changes
