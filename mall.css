@@ -3,7 +3,9 @@ html{
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    margin:0
+    margin:0;
+    background-color: rgb(46, 45, 45);
+    
 }
 .homeimg{
     width:auto;
@@ -37,6 +39,10 @@ nav{
     justify-content: space-around;
     background-color: #00000010;
 }
+.erbjudanden{
+    display: flex;
+    flex-direction: column;
+}
 .title{
     color: white;
     position: absolute;
@@ -60,6 +66,13 @@ nav{
     padding: 1rem;
     color: #2F7D27;
 }
+.lunchdiv1{
+    width:50%;
+}
+.lunchdiv2{
+    width:50%;
+}
+
 @media (min-width:700px) {
     .erbjudanden{
         display:flex;
@@ -72,12 +85,6 @@ nav{
     .lunchdiv2{
         display:flex;
         flex-direction: column;
-    }
-    .bild1{
-        
-    }
-    .bild2{
-
     }
     .lunchDiv{
         display: flex;
