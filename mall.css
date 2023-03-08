@@ -54,6 +54,7 @@ nav{
     background-color: #00000010;
 }
 .erbjudanden{
+    background-image: url("./images/bakgrund.jpg");
     display: flex;
     flex-direction: column;
 }
@@ -78,13 +79,19 @@ nav{
 .lunchDiv{
     margin: 0px;
     padding: 1rem;
-    color: #2F7D27;
+    color: white;
 }
 .lunchdiv1{
     width:50%;
 }
 .lunchdiv2{
     width:50%;
+}
+.bild1>img{
+    border-radius: 100%;
+}
+.bild2>img{
+    border-radius: 100%;
 }
 
 @media (min-width:700px) {
