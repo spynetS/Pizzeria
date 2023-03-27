@@ -1,59 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="se">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="mall.css">
+    <link rel="stylesheet" href="./css/mall.css">
+    <link rel="stylesheet" href="./css/home.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    
     <title>Pizzeria</title>
 </head>
 <body>
+
     <nav>
         <a href="index.html"   >HOME   </a>
-        <a href="menu.html"    >MENY   </a>
-        <a href="kontakt.html" >KONTAKT</a>
+        <a href="./html/menu.html"    >MENY   </a>
+        <a href="./html/kontakt.html" >KONTAKT</a>
+        <div class="logo"  >
+            <a href="index.html" >Campino</a>
+        </div>
     </nav>
 
-    <div class="homeimg" >
-        <h1 class="title" >Campino</h1>
-        <h1 class="cringeCitat" >Pizza är vår grej</h1>
-    </div>
-    <div class="tider" style="text-align:center; font-size:18px"  >
-        <p>
-            <strong>ÖPPETTIDER</strong>
-            <br>
-            Måndag – Söndag: 11:00 – 23:00
-            <br>
-            Lunch serveras mån – fre: 11:00 – 14:30
-        </p>
-    </div>
-    <div class="erbjudanden">
-        <div class="lunchdiv1">
-            <div class="lunchDiv" >
-                <h1 style="margin: 0; font-size: 48px;" >Lunch 79:-</h1>
-                <h1 style="margin: 0; font-size: 48px;" >Vardagar 11-14</h1>
-                <p style="font-size: 20px;" >
-                    Vi erbjuder den bästa lunchen för ett super pris. Bröd, sallad, dricka och kaffe ingår. 
-                    Välj mellan Pizza, Grillspett, Kebab, Schnitzel, Salladsbar, Gyros, Lövbit, 
-                    Rödspetta och falafel.
-                </p>
+    <div class="snapContainer" style="position: relative;" >
+        <section class="homeimg snapChild " >
+            <h1 class="title" >Campino pizzeria </br> söderköping</h1>
+            <h1 class="cringeCitat" >Pizza är vår grej</h1>
+        </section>
+   
+        <!-- a div containg two divs (on mobile under each other, on desktop next to each other) -->
+        <div class="erbjudanden snapChild">
+           
+            <div class="lunchdiv1">
+                <div class="lunchDiv" >
+                    <h1 >Lunch 79:-</h1>
+                    <h1 >Vardagar 11-14</h1>
+                    <p>
+                        Vi erbjuder den bästa lunchen för ett super pris. Bröd, sallad, dricka och kaffe ingår. 
+                        Välj mellan Pizza, Grillspett, Kebab, Schnitzel, Salladsbar, Gyros, Lövbit, 
+                        Rödspetta och falafel.
+                    </p>
+                </div>
+                <img class="roundimage" src="./images/Sweet-and-Spicy-Tomato-Basil-Pepperoni-Pizza-1-2ab0dbfad4d64981845253cd51234978.png" alt="">
             </div>
-            <div class="bild1">
-                <img style="width: 80%;margin: 0;" src="./images/Sweet-and-Spicy-Tomato-Basil-Pepperoni-Pizza-1-2ab0dbfad4d64981845253cd51234978.png" alt="">
+
+            <div class="lunchdiv1">
+                <div class="lunchDiv">
+                    <!-- a hack but it works :p -->
+                    <h1 style="color: transparent" ></h1>
+                    <h1>Salladsbar 85:-</h1>
+                    <p>
+                        Skapa din egna sallad ur våran fräsha Salladsbar. Välj mellan 5 olika 
+                        ingridenser (sallad, gurka och tomat ingår). 
+                    </p>
+                </div>
+                <img  class="roundimage" src="./images/salladkvadrat.png" alt="">
             </div>
+
         </div>
-        <div class="lunchdiv2">
-            <div class="lunchDiv" style="color: white;" >
-                <h1 style="margin: 0; font-size: 48px;" >Salladsbar 85:-</h1>
-                <p style="font-size: 20px;" >
-                    Skapa din egna sallad ur våran fräsha Salladsbar. Välj mellan 5 olika 
-                    ingridenser (sallad, gurka och tomat ingår). 
-                </p>
+    <footer class="snapChild" >
+        <div>
+            <h2>Öppettider</h2>
+            <div class="openingHours" >
+                <h3>Måndag 08-21</h3>
+                <h3>Tisdag 08-21</h3>
+                <h3>Onsdag 08-21</h3>
+                <h3>Torsdag 08-21</h3>
+                <h3>Fredag 08-21</h3>
+                <h3>Lördag 08-21</h3>
+                <h3>Söndag 08-21</h3>
             </div>
-            <div class="bild2">
-                <img style="width: 80%;" src="./images/salladkvadrat.png" alt="">
-            </div>
+       </div>
+        <div>
+            <h2>Sidor</h2>
+            <a href="index.html"   >HOME   </a>
+            <a href="./html/menu.html"    >MENY   </a>
+            <a href="./html/kontakt.html" >KONTAKT</a>
         </div>
+        <div>
+            <h2>Kontakt</h2>
+            <h3>Email: campino-pizzeria@fakemail.com</h3>
+            <h3>Telefon: 123456789</h3>
+        </div>
+    </footer>
     </div>
 </body>
 </html>
